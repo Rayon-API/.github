@@ -1,21 +1,14 @@
 # RayonAPI
 
-RayonAPI generates F5 Shape request headers from client-supplied protection JavaScript,
-browser profiles and exact request context.
+Generate request headers or form telemetry from client-supplied protection scripts and exact request context.
 
-[Documentation](https://docs.rayonapi.com/) · [Quickstart](https://docs.rayonapi.com/quickstart) · [Material preparation](https://docs.rayonapi.com/material)
+**We recommend an SDK.** Follow the [Quickstart](https://docs.rayonapi.com/quickstart): install → check usage for free → prepare inputs → generate → apply the result with your existing integration.
 
-1. Collect the required raw protection JavaScript, measured browser profile and browser-visible cookies in your own client.
-2. Call the API or an SDK to generate six fresh headers for the exact request.
-3. Apply the returned headers and send the request through your client and session.
+| SDK | Get started |
+| --- | --- |
+| [Python](https://github.com/Rayon-API/rayon-sdk-py) | `python -m pip install 'rayon-sdk-py>=1.1.4,<2'` |
+| [JavaScript / TypeScript](https://github.com/Rayon-API/rayon-sdk-js) | `npm install rayon-sdk-js@^1.1.4` |
+| [Go](https://github.com/Rayon-API/rayon-sdk-go) | `go get github.com/Rayon-API/rayon-sdk-go@v1.0.0` |
+| [Playwright](https://github.com/Rayon-API/rayon-sdk-playwright) | Optional existing-page integration; build from source while the npm release is pending. |
 
-## Repositories
-
-| Repository | Purpose | Install |
-| --- | --- | --- |
-| [rayon-sdk-py](https://github.com/Rayon-API/rayon-sdk-py) | Python SDK | `python -m pip install rayon-sdk-py` |
-| [rayon-sdk-js](https://github.com/Rayon-API/rayon-sdk-js) | JavaScript and TypeScript SDK | `npm install rayon-sdk-js` |
-| [rayon-examples](https://github.com/Rayon-API/rayon-examples) | SDK integration examples | |
-| [docs](https://github.com/Rayon-API/docs) | Documentation and API reference | |
-
-[Support](mailto:support@rayonapi.com) · [Discord](https://discord.gg/TwhkJNyHWs)
+[Examples](https://github.com/Rayon-API/rayon-examples) · [API reference](https://docs.rayonapi.com/api-reference) · [Support](mailto:support@rayonapi.com) · [Discord](https://discord.gg/TwhkJNyHWs)
